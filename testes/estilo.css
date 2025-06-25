@@ -1,0 +1,66 @@
+*{
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+     font-family: "Roboto", Arial, sans-serif;
+}
+
+.thumb {
+
+    width: 380px;
+}
+
+.logo {
+
+    width: 36px;
+}
+
+.paragrafo{
+    width: 300px;
+    background-color: red;
+    padding: 16px 32px 2px;
+    margin: 16px 32px 2px;
+    border: 3px solid blue;
+}
+
+.caixa-textos{
+
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+     
+}
+
+.caixa-titulo{
+
+    color:#0F0F0F;
+    font-weight: 700;
+}
+
+.caixa-texto{
+    color: #606060;
+    font-size: 14px;
+}
+
+.thumb {
+    margin-bottom: 10px;
+    border-radius: 12px;
+
+}
+
+.logo{
+
+    border-radius: 50%;
+
+}
+
+.caixa-infos{
+
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
